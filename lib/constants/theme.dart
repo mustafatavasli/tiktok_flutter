@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-
 import 'constants.dart';
 
 class ThemeConst {
@@ -69,81 +68,81 @@ class ThemeConst {
         brightness: Brightness.light,
       ),
     ),
-    /* textTheme: TextTheme(
-      headline1: GoogleFonts.lato(
+    textTheme: TextTheme(
+      displayLarge: GoogleFonts.lato(
         color: Constants.black,
         fontSize: 40,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      headline2: GoogleFonts.lato(
+      displayMedium: GoogleFonts.lato(
         color: Constants.black,
         fontSize: 28,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      headline3: GoogleFonts.lato(
+      displaySmall: GoogleFonts.lato(
         color: Constants.black,
         fontSize: 20,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
       //Uses for Titles of Onboarding
-      headline4: GoogleFonts.lato(
+      headlineLarge: GoogleFonts.lato(
         color: Constants.black,
         fontSize: 18,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      headline5: GoogleFonts.lato(
+      headlineMedium: GoogleFonts.lato(
         color: Constants.black,
         fontSize: 14,
         fontWeight: FontWeight.w600,
         fontStyle: FontStyle.normal,
       ),
-      headline6: GoogleFonts.lato(
+      headlineSmall: GoogleFonts.lato(
         color: Colors.black,
         fontSize: 12,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      subtitle1: GoogleFonts.lato(
+      titleLarge: GoogleFonts.lato(
         color: Colors.white,
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      bodyText1: GoogleFonts.lato(
+      titleMedium: GoogleFonts.lato(
         color: Colors.white,
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      bodyText2: GoogleFonts.lato(
+      titleSmall: GoogleFonts.lato(
         color: Colors.white,
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      caption: GoogleFonts.lato(
+      labelLarge: GoogleFonts.lato(
         color: Constants.black,
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      button: GoogleFonts.lato(
+      labelMedium: GoogleFonts.lato(
         color: Constants.black,
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      subtitle2: GoogleFonts.lato(
+      bodyLarge: GoogleFonts.lato(
         color: Constants.black,
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      overline: GoogleFonts.lato(
+      bodyMedium: GoogleFonts.lato(
         color: Constants.black,
         fontSize: null,
         fontWeight: FontWeight.w400,
@@ -151,85 +150,85 @@ class ThemeConst {
       ),
     ),
     primaryTextTheme: TextTheme(
-      headline1: GoogleFonts.lato(
+      displayLarge: GoogleFonts.lato(
         color: Colors.black,
         fontSize: 40,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      headline2: GoogleFonts.lato(
+      displayMedium: GoogleFonts.lato(
         color: Colors.black,
         fontSize: 28,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      headline3: GoogleFonts.lato(
+      displaySmall: GoogleFonts.lato(
         color: Colors.black,
         fontSize: 20,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      headline4: GoogleFonts.lato(
+      headlineLarge: GoogleFonts.lato(
         color: Colors.black,
         fontSize: 18,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      headline5: GoogleFonts.lato(
+      headlineMedium: GoogleFonts.lato(
         color: Colors.black,
         fontSize: 14,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      headline6: GoogleFonts.lato(
+      headlineSmall: GoogleFonts.lato(
         color: Colors.black,
         fontSize: 12,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      subtitle1: GoogleFonts.lato(
+      titleLarge: GoogleFonts.lato(
         color: Color(0xffffffff),
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      bodyText1: GoogleFonts.lato(
+      titleMedium: GoogleFonts.lato(
         color: Color(0xffffffff),
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      bodyText2: GoogleFonts.lato(
+      titleSmall: GoogleFonts.lato(
         color: Color(0xffffffff),
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      caption: GoogleFonts.lato(
+      labelLarge: GoogleFonts.lato(
         color: Color(0xb3ffffff),
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      button: GoogleFonts.lato(
+      labelMedium: GoogleFonts.lato(
         color: Color(0xffffffff),
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      subtitle2: GoogleFonts.lato(
+      bodyLarge: GoogleFonts.lato(
         color: Color(0xffffffff),
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      overline: GoogleFonts.lato(
+      bodyMedium: GoogleFonts.lato(
         color: Color(0xffffffff),
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-    ), */
+    ),
     inputDecorationTheme: InputDecorationTheme(
       labelStyle: GoogleFonts.lato(
         color: Constants.purple,
@@ -488,80 +487,80 @@ class ThemeConst {
         brightness: Brightness.dark,
       ),
     ),
-    /* textTheme: TextTheme(
-      headline1: GoogleFonts.lato(
+    textTheme: TextTheme(
+      displayLarge: GoogleFonts.lato(
         color: Colors.white,
         fontSize: 40,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      headline2: GoogleFonts.lato(
+      displayMedium: GoogleFonts.lato(
         color: Colors.white,
         fontSize: 28,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      headline3: GoogleFonts.lato(
+      displaySmall: GoogleFonts.lato(
         color: Colors.white,
         fontSize: 20,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      headline4: GoogleFonts.lato(
+      headlineLarge: GoogleFonts.lato(
         color: Colors.white,
         fontSize: 18,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      headline5: GoogleFonts.lato(
+      headlineMedium: GoogleFonts.lato(
         color: Colors.white,
         fontSize: 14,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      headline6: GoogleFonts.lato(
+      headlineSmall: GoogleFonts.lato(
         color: Color(0xffffffff),
         fontSize: 12,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      subtitle1: GoogleFonts.lato(
+      titleLarge: GoogleFonts.lato(
         color: Color(0xffffffff),
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      bodyText1: GoogleFonts.lato(
+      titleMedium: GoogleFonts.lato(
         color: Color(0xffffffff),
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      bodyText2: GoogleFonts.lato(
+      titleSmall: GoogleFonts.lato(
         color: Color(0xffffffff),
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      caption: GoogleFonts.lato(
+      labelLarge: GoogleFonts.lato(
         color: Color(0xb3ffffff),
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      button: GoogleFonts.lato(
+      labelMedium: GoogleFonts.lato(
         color: Color(0xffffffff),
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      subtitle2: GoogleFonts.lato(
+      bodyLarge: GoogleFonts.lato(
         color: Color(0xffffffff),
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      overline: GoogleFonts.lato(
+      bodyMedium: GoogleFonts.lato(
         color: Color(0xffffffff),
         fontSize: null,
         fontWeight: FontWeight.w400,
@@ -569,85 +568,85 @@ class ThemeConst {
       ),
     ),
     primaryTextTheme: TextTheme(
-      headline1: GoogleFonts.lato(
+      displayLarge: GoogleFonts.lato(
         color: Colors.white,
         fontSize: 40,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      headline2: GoogleFonts.lato(
+      displayMedium: GoogleFonts.lato(
         color: Colors.white,
         fontSize: 28,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      headline3: GoogleFonts.lato(
+      displaySmall: GoogleFonts.lato(
         color: Colors.white,
         fontSize: 20,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      headline4: GoogleFonts.lato(
+      headlineLarge: GoogleFonts.lato(
         color: Colors.white,
         fontSize: 18,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      headline5: GoogleFonts.lato(
+      headlineMedium: GoogleFonts.lato(
         color: Color(0xffffffff),
         fontSize: 14,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      headline6: GoogleFonts.lato(
+      headlineSmall: GoogleFonts.lato(
         color: Color(0xffffffff),
         fontSize: 12,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      subtitle1: GoogleFonts.lato(
+      titleLarge: GoogleFonts.lato(
         color: Color(0xffffffff),
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      bodyText1: GoogleFonts.lato(
+      titleMedium: GoogleFonts.lato(
         color: Color(0xffffffff),
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      bodyText2: GoogleFonts.lato(
+      titleSmall: GoogleFonts.lato(
         color: Color(0xffffffff),
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      caption: GoogleFonts.lato(
+      labelLarge: GoogleFonts.lato(
         color: Color(0xb3ffffff),
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      button: GoogleFonts.lato(
+      labelMedium: GoogleFonts.lato(
         color: Color(0xffffffff),
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      subtitle2: GoogleFonts.lato(
+      bodyLarge: GoogleFonts.lato(
         color: Color(0xffffffff),
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      overline: GoogleFonts.lato(
+      bodyMedium: GoogleFonts.lato(
         color: Color(0xffffffff),
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-    ), */
+    ),
     inputDecorationTheme: InputDecorationTheme(
       labelStyle: GoogleFonts.lato(
         color: Constants.purple,

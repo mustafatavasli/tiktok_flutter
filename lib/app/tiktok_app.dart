@@ -10,15 +10,31 @@ class TikTokApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return ViewModelBuilder<AppBaseViewModel>.reactive(
         viewModelBuilder: () => AppBaseViewModel(),
-        onModelReady: (viewModel) => viewModel.init(),
-        builder: (context, viewModel, child) => MaterialApp(
+        onModelReady: (model) => model.init(),
+        builder: (context, model, child) => MaterialApp(
               debugShowCheckedModeBanner: false,
               theme: ThemeConst.light,
               darkTheme: ThemeConst.dark,
+              themeMode: model.theme,
               home: Scaffold(
+                appBar: AppBar(
+                  actions: [
+                    IconButton(
+                      onPressed: () {
+                        model.changeTheme();
+                      },
+                      icon: model.theme == ThemeMode.dark
+                          ? Icon(Icons.dark_mode)
+                          : Icon(Icons.light_mode),
+                    )
+                  ],
+                ),
                 body: Container(
                   child: Center(
-                    child: Text("Hello from TikTok App"),
+                    child: Text(
+                      "Hello from TikTok App",
+                      style: Theme.of(context).textTheme.headlineSmall,
+                    ),
                   ),
                 ),
               ),
