@@ -1,5 +1,7 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:stacked/stacked.dart';
+import 'package:tiktok_flutter/services/firebase_service.dart';
 import 'package:tiktok_flutter/ui/home/home_view_model.dart';
 
 class HomeView extends StatelessWidget {
@@ -33,6 +35,11 @@ class HomeView extends StatelessWidget {
                           child: Text("Go to Detail View")),
                       Text(
                         "Hello from TikTok App",
+                        style: Theme.of(context).textTheme.headlineSmall,
+                      ),
+                      // Firebase Auth Text
+                      Text(
+                        "${FirebaseAuth.instance.currentUser?.isAnonymous}",
                         style: Theme.of(context).textTheme.headlineSmall,
                       ),
                     ],

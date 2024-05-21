@@ -17,7 +17,8 @@ dependencies:
   google_fonts: ^6.2.1
   cupertino_icons: ^1.0.6
   #FIREBASE
-
+  firebase_core: ^2.31.0
+  firebase_auth: ^4.19.5
   #DEPENDENCIES_INJECTION (DI)
   get_it: ^7.7.0
   #STATE_MANAGEMENT
